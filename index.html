@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- Title  -->
+    <title>Restaurant Website</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      title="Favicon"
+      sizes="16x16"
+    />
+
+    <!-- bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dwmerwpti/raw/upload/v1716895447/bootstrap.min_foxqw5.css"
+    />
+
+    <!-- font family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- animate css  -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dwmerwpti/raw/upload/v1716895446/animate_rv9icj.css"
+    />
+
+    <!-- swiper slider  -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dwmerwpti/raw/upload/v1716895446/swiper8.min_afzplc.css"
+    />
+
+    <!-- common style -->
+    <!-- <link rel="stylesheet" href="./common/assets/common_style_sfdqvl.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dwmerwpti/raw/upload/v1717432751/common_style_sfdqvl_bdrvs7.css"
+    />
+
+    <!-- home style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-105392568-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+
+  <body class="home-st1">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- ====== Start Loading ====== -->
+
+    <div class="loader-wrap">
+      <svg
+        viewBox="0 0 1000 1000"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      >
+        <defs>
+          <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #000" />
+            <stop offset="100%" style="stop-color: #555" />
+          </linearGradient>
+        </defs>
+        <path
+          id="svg"
+          d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"
+          fill="url(#path-gradient)"
+        ></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-text">
+          <span>R</span>
+          <span>E</span>
+          <span>S</span>
+          <span>T</span>
+          <span>A</span>
+          <span>U</span>
+          <span>R</span>
+          <span>A</span>
+          <span>N</span>
+          <span>T</span>
+        </div>
+      </div>
+    </div>
+
+    <!--  Start fixed menu  -->
+    <div class="fixed-menu">
+      <div class="food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/chicken.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/chicken_peppers.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/meat.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/nachos_guacamole.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/pasta.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../inner-pages/portfolio_single.html" class="dish-card">
+              <div class="img">
+                <img src="assets/img/menu_dishes/salad.png" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="food-text-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>chicken peppers</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>meat</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>nachos guacamole</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>pasta</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              <h2>salads</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="circle"></div>
+      <span class="clss"><i class="fas fa-times-circle"></i></span>
+    </div>
+    <!--  End fixed menu  -->
+
+    <div id="scrollsmoother-container">
+      <nav class="navbar navbar-expand-lg navbar-dark tc-navbar-st1">
+        <div class="container-fluid">
+          <a
+            href="#"
+            class="butn bg-pink1 text-white rounded-pill size-1 d-none d-lg-inline-block"
+          >
+            <span> Book a Table + </span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse order-last order-lg-0"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto sub-font">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-icons">
+            <div class="menu-item">
+              <a class="nav-link side_menu_btn" href="#"> Menu </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--  End navbar  -->
+
+      <!--  Start header  -->
+      <header class="tc-header-st1">
+        <div class="header-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="header-card">
+                <img src="assets/img/header1.jpg" alt="" class="bg" />
+                <div class="container">
+                  <div class="info">
+                    <h2>Savor Delightful Dining Moments</h2>
+                    <div class="text fsz-20 mt-15 text-white col-lg-6 mx-auto">
+                      Experience exquisite flavors, exceptional service, and a
+                      welcoming atmosphere at Restaurant, where every meal is
+                      memorable.
+                    </div>
+                    <div class="btns mt-40">
+                      <a
+                        href="#"
+                        class="butn bg-brown1 rounded-pill text-white m-2 size-1"
+                      >
+                        <span> Discover More + </span>
+                      </a>
+                      <a
+                        href="#"
+                        class="butn bg-dark1 rounded-pill text-white m-2 size-1"
+                      >
+                        <span> Food Menu + </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="header-card">
+                <img src="assets/img/header2.jpg" alt="" class="bg" />
+                <div class="container">
+                  <div class="info">
+                    <h2>Indulge in Culinary Excellence</h2>
+                    <div class="text fsz-20 mt-15 text-white col-lg-6 mx-auto">
+                      Discover gourmet dishes, impeccable service, and a cozy
+                      ambiance at Restaurant, making every visit a culinary
+                      delight.
+                    </div>
+                    <div class="btns mt-40">
+                      <a
+                        href="#"
+                        class="butn bg-brown1 rounded-pill text-white m-2 size-1"
+                      >
+                        <span> Discover More + </span>
+                      </a>
+                      <a
+                        href="#"
+                        class="butn bg-dark1 rounded-pill text-white m-2 size-1"
+                      >
+                        <span> Food Menu + </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls df-center">
+            <div class="swiper-prev">
+              <i class="fas fa-long-arrow-left"></i>
+            </div>
+            <div class="swiper-pagination swiper-pagination-light"></div>
+            <div class="swiper-next">
+              <i class="fas fa-long-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--  End header  -->
+
+      <!--Contents-->
+      <main>
+        <!--  Start about  -->
+        <section class="tc-about-st1">
+          <div class="container">
+            <div
+              class="title col-lg-6 offset-lg-2 mb-60 wow fadeIn slow"
+              data-wow-delay="0.2s"
+            >
+              <h2>Trusted Culinary Haven Since 1995</h2>
+            </div>
+            <div class="content wow fadeIn slow" data-wow-delay="0.2s">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="img1 th-500 overflow-hidden">
+                    <img src="assets/img/ab1.jpg" alt="" class="img-cover" />
+                  </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                  <div class="info">
+                    <div class="text fsz-16 mb-20">
+                      At Restaurant, we believe in crafting memorable dining
+                      experiences. Our chefs use only the freshest ingredients
+                      to create dishes that delight the senses. From the first
+                      bite to the last, our meals are designed to bring joy and
+                      satisfaction.
+                    </div>
+                    <div class="text fsz-16 mb-20">
+                      Step into our welcoming environment, where the ambiance is
+                      as inviting as the food. Our attentive staff ensures every
+                      detail is perfect, making your visit special. Whether
+                      you're here for a family dinner, a romantic date, or a
+                      gathering with friends, Restaurant offers the perfect
+                      setting. Experience the best in culinary artistry and
+                      hospitality at Restaurant, where every meal is a
+                      celebration.
+                    </div>
+                    <a
+                      href="#"
+                      class="butn bg-pink1 text-white rounded-pill size-1 mt-50"
+                    >
+                      <span> More About + </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="img2 th-400 overflow-hidden">
+                    <img src="assets/img/ab2.jpg" alt="" class="img-cover" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/about_shaps.png" alt="" class="shaps" />
+        </section>
+        <!--  End about  -->
+
+        <!--  Start services  -->
+        <section class="tc-services-st1">
+          <div class="container">
+            <div class="cards">
+              <div class="row gx-0">
+                <div class="col-lg-3">
+                  <a href="#" class="service-card" data-tab="tab-1">
+                    <div class="icon">
+                      <img src="assets/img/icons/s1.svg" alt="" />
+                    </div>
+                    <h5 class="fsz-30 mb-20">Fresh Product</h5>
+                    <div class="text fsz-16">
+                      Savor the finest seasonal ingredients at Restaurant. Our
+                      commitment to quality ensures every dish is bursting with
+                      fresh flavors and vibrant colors. Experience the true
+                      taste of freshness in every bite.
+                    </div>
+                    <span class="more-btn sub-font"> See more </span>
+                  </a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="#" class="service-card" data-tab="tab-2">
+                    <div class="icon">
+                      <img src="assets/img/icons/s2.svg" alt="" />
+                    </div>
+                    <h5 class="fsz-30 mb-20">Skilled Chefs</h5>
+                    <div class="text fsz-16">
+                      Our culinary team, led by skilled chefs, brings passion
+                      and expertise to every dish. Experience creativity and
+                      precision in each bite, ensuring a memorable dining
+                      adventure at Restaurant.
+                    </div>
+                    <span class="more-btn sub-font"> See more </span>
+                  </a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="#" class="service-card" data-tab="tab-3">
+                    <div class="icon">
+                      <img src="assets/img/icons/s3.svg" alt="" />
+                    </div>
+                    <h5 class="fsz-30 mb-20">Drinks and Wines</h5>
+                    <div class="text fsz-16">
+                      Indulge in our exquisite selection of drinks and wines,
+                      carefully curated to complement every meal. Enjoy a
+                      diverse range of beverages that elevate your dining
+                      experience.
+                    </div>
+                    <span class="more-btn sub-font"> See more </span>
+                  </a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="#" class="service-card" data-tab="tab-4">
+                    <div class="icon">
+                      <img src="assets/img/icons/s4.svg" alt="" />
+                    </div>
+                    <h5 class="fsz-30 mb-20">Vegan Cuisine</h5>
+                    <div class="text fsz-16">
+                      Delight in our innovative vegan cuisine, where plant-based
+                      ingredients shine. Enjoy flavorful, creative dishes that
+                      cater to every palate, offering a delicious and satisfying
+                      dining experience at Restaurant
+                    </div>
+                    <span class="more-btn sub-font"> See more </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="glry-img">
+            <img
+              id="tab-1"
+              src="assets/img/ser_bg2.jpg"
+              alt=""
+              class="tab-img current"
+            />
+            <img
+              id="tab-2"
+              src="assets/img/ser_bg1.jpg"
+              alt=""
+              class="tab-img"
+            />
+            <img
+              id="tab-3"
+              src="assets/img/ser_bg3.jpg"
+              alt=""
+              class="tab-img"
+            />
+            <img
+              id="tab-4"
+              src="assets/img/ser_bg4.jpg"
+              alt=""
+              class="tab-img"
+            />
+          </div>
+        </section>
+        <!--  End services  -->
+
+        <!--  Start menu  -->
+        <section class="tc-menu-st1">
+          <div class="container">
+            <div
+              class="section-head-st1 text-center col-lg-6 mx-auto mb-50 wow fadeIn slow"
+              data-wow-delay="0.2s"
+            >
+              <div class="icon th-50 mb-20">
+                <img src="assets/img/vec2.svg" alt="" class="img-contain" />
+              </div>
+              <h2 class="fsz-50 mb-20">Our Special Menus</h2>
+              <div class="text fsz-16">
+                Explore our curated special menus at Restaurant, designed to
+                elevate your dining experience with unique flavors and seasonal
+                ingredients.
+              </div>
+            </div>
+            <div class="menu-wrapper wow fadeIn slow" data-wow-delay="0.2s">
+              <div class="row gx-5">
+                <div class="col-lg-6">
+                  <div class="menu-list">
+                    <h5 class="fsz-30 sub-font1">Breakfast</h5>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/1.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Delicious Pancakes</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/2.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Nan Roti & Vegetables</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                        <div class="discount">20% Off</div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/3.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Tea & Coffee</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list mt-50">
+                    <h5 class="fsz-30 sub-font1">Dinner</h5>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/4.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Grilled Chicken</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/5.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Fast food</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                        <div class="discount">20% Off</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="menu-list">
+                    <h5 class="fsz-30 sub-font1">Lunch</h5>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/6.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Kachchi Biryani</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/7.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Morog Polao</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list mt-50">
+                    <h5 class="fsz-30 sub-font1">Cool Drinks</h5>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/8.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Misti Doi Sweet Yogurt</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/9.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Soft Drinks</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                        <div class="discount">20% Off</div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="img">
+                        <img
+                          src="assets/img/menu/10.jpg"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </div>
+                      <div class="inf">
+                        <h6 class="fsz-20 mb-15">Sweet Lassi</h6>
+                        <p class="fsz-16">
+                          Lorem ipsum dolor sit amet, exand to consectetur
+                        </p>
+                      </div>
+                      <div class="price">
+                        <div class="new-price fsz-24 text-white">$5.00</div>
+                        <div
+                          class="old-price fsz-16 text-decoration-line-through"
+                        >
+                          $8.00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/menu_pattern.png" alt="" class="patt" />
+        </section>
+        <!--  End menu  -->
+
+        <!--  Start team  -->
+        <section class="tc-team-st1">
+          <div class="container">
+            <div class="title wow fadeIn slow" data-wow-delay="0.2s">
+              <div class="row align-items-end">
+                <div class="col-lg-6">
+                  <h2 class="fsz-50 mb-20">Our Team Member</h2>
+                  <div class="text fsz-16">
+                    Meet the dedicated individuals who make your experience
+                    memorable at Restaurant. Our team is committed to providing
+                    exceptional service and ensuring every visit is enjoyable.
+                  </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0 text-lg-end">
+                  <a
+                    href="#"
+                    class="butn border border-light1 text-white rounded-pill hover-bg-pink1 size-1"
+                  >
+                    <span> View All </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="cards wow fadeIn slow" data-wow-delay="0.2s">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="team-card">
+                    <div class="img th-350">
+                      <img
+                        src="assets/img/team/1.jpg"
+                        alt=""
+                        class="img-cover"
+                      />
+                      <div class="social-icons">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-pinterest-p"></i> </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <h5 class="fsz-30 mb-10">Camila Sofia</h5>
+                      <p class="fsz-16">Master Chef</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="team-card">
+                    <div class="img th-350">
+                      <img
+                        src="assets/img/team/2.jpg"
+                        alt=""
+                        class="img-cover"
+                      />
+                      <div class="social-icons">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-pinterest-p"></i> </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <h5 class="fsz-30 mb-10">Mila Violet</h5>
+                      <p class="fsz-16">Kitchen manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="team-card">
+                    <div class="img th-350">
+                      <img
+                        src="assets/img/team/3.jpg"
+                        alt=""
+                        class="img-cover"
+                      />
+                      <div class="social-icons">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-pinterest-p"></i> </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <h5 class="fsz-30 mb-10">Gianna Aria</h5>
+                      <p class="fsz-16">Executive chef</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="team-card">
+                    <div class="img th-350">
+                      <img
+                        src="assets/img/team/4.jpg"
+                        alt=""
+                        class="img-cover"
+                      />
+                      <div class="social-icons">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-pinterest-p"></i> </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <h5 class="fsz-30 mb-10">Hazel Nora</h5>
+                      <p class="fsz-16">General manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  End team  -->
+
+        <!--  Start restaurant  -->
+        <section class="tc-restaurant-st1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="img th-550 wow fadeIn slow" data-wow-delay="0.2s">
+                  <img src="assets/img/res1.jpg" alt="" class="img-cover" />
+                </div>
+                <div
+                  class="info pt-40 col-lg-9 wow fadeIn slow"
+                  data-wow-delay="0.4s"
+                >
+                  <h2 class="fsz-50 mb-20">
+                    We Create Food in The best restaurant in the city
+                  </h2>
+                  <p class="fsz-16">
+                    At Restaurant, our team is the heart of our operation. From
+                    our skilled chefs who craft delicious dishes to our friendly
+                    servers who ensure your dining experience is top-notch, each
+                    team member plays a crucial role.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 offset-lg-1 wow fadeIn slow"
+                data-wow-delay="0.6s"
+              >
+                <p class="fsz-16 text-white offset-lg-2 mb-50">
+                  We are passionate about hospitality and strive to create a
+                  welcoming atmosphere where you can relax and enjoy your meal.
+                  Meet our team and discover the faces behind the exceptional
+                  service at Restaurant.
+                </p>
+                <div class="img th-650">
+                  <img src="assets/img/res2.jpg" alt="" class="img-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/vec3.svg" alt="" class="vec3" />
+        </section>
+        <!--  End restaurant  -->
+
+        <!--  Start reservation  -->
+        <section class="tc-reservation-st1">
+          <div class="container">
+            <div class="reservation-card wow fadeIn slow" data-wow-delay="0.2s">
+              <div class="title text-center">
+                <h2 class="fsz-50 mb-20">Make a Reservation</h2>
+                <div class="text fsz-16">Get in touch with restaurant</div>
+              </div>
+              <form action="#" class="form">
+                <div class="row justify-content-center">
+                  <div class="col-lg-5">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="Full Name"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="(+566 666 777 88 99)"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="16/03/2024"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="form-group">
+                      <select name="" id="" class="form-control form-select">
+                        <option value="">6.30 PM</option>
+                        <option value="">7.30 PM</option>
+                        <option value="">9.30 PM</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="form-group">
+                      <div class="form-group">
+                        <select name="" id="" class="form-control form-select">
+                          <option value="">1 Person</option>
+                          <option value="">2 Person</option>
+                          <option value="">3 Person</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <a
+                    href="#"
+                    class="butn bg-pink1 text-white rounded-pill size-1 mt-50"
+                  >
+                    <span> Book a Table + </span>
+                  </a>
+                </div>
+              </form>
+              <img src="assets/img/res_bg.png" alt="" class="bg" />
+              <img src="assets/img/res_imgs.png" alt="" class="imgs" />
+            </div>
+          </div>
+        </section>
+        <!--  End reservation  -->
+      </main>
+      <!--End-Contents-->
+
+      <!--  Start footer  -->
+      <footer class="tc-footer-st1">
+        <div class="container">
+          <div class="foot-suscribe text-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <a href="#" class="foot-logo th-50 mb-20">
+                  <img src="assets/img/logo.png" alt="" />
+                </a>
+                <p class="fsz-16 px-lg-5 mx-lg-5">
+                  Join our community of food lovers and be the first to know
+                  about our latest dishes, exclusive promotions, and special
+                  events
+                </p>
+                <div class="from-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your email address..."
+                  />
+                  <a
+                    href="#"
+                    class="butn bg-pink1 text-white rounded-pill size-1"
+                  >
+                    <span> Subscribe Now + </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Social</h6>
+                  <ul class="links">
+                    <li><a href="#"> Instagram </a></li>
+                    <li><a href="#"> SnapChat </a></li>
+                    <li><a href="#"> Twitter </a></li>
+                    <li><a href="#"> Pinterest </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">More Service</h6>
+                  <ul class="links">
+                    <li><a href="#"> Privacy Policy </a></li>
+                    <li><a href="#"> Foods </a></li>
+                    <li><a href="#"> About us </a></li>
+                    <li><a href="#"> Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Working Hours</h6>
+                  <ul class="links links-m0">
+                    <li><a href="#"> SUNDAY TO TUESDAY </a></li>
+                    <li><a href="#" class="mb-30"> 7.00am – 6.00pm </a></li>
+                    <li><a href="#"> FRIDAY TO SATURDAY </a></li>
+                    <li><a href="#"> 8.00am – 6.00pm </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="links-group">
+                  <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Contact</h6>
+                  <ul class="links links-m0">
+                    <li>
+                      <a href="#" class="mb-30">Addis Ababa, Ethiopia. </a>
+                    </li>
+                    <li><a href="#"> contact@restaurant.com </a></li>
+                    <li><a href="#"> +251 999 999 99 </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="foot">
+            <p>
+              <a href="#" class="text-white"> Restaurant </a>&copy; 2024. All
+              Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!--  End footer  -->
+    </div>
+
+    <!--  Start to top button  -->
+    <a href="#" class="to_top" id="to_top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <!--  End to top button  -->
+
+    <!--  request  -->
+    <script src="./common/assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="./common/assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="./common/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="./common/assets/js/lib/wow.min.js"></script>
+    <script src="./common/assets/js/lib/jquery.fancybox.js"></script>
+    <script src="./common/assets/js/lib/lity.js"></script>
+    <script src="./common/assets/js/lib/swiper8-bundle.min.js"></script>
+    <script src="./common/assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="./common/assets/js/lib/jquery.counterup.js"></script>
+    <script src="./common/assets/js/lib/smoke.js"></script>
+    <script src="./common/assets/js/lib/parallaxie.js"></script>
+    <!-- === Gsap === -->
+    <script src="./common/assets/js/gsap_lib/gsap.min.js"></script>
+    <script src="./common/assets/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="./common/assets/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="./common/assets/js/gsap_lib/SplitText.min.js"></script>
+    <!-- === common === -->
+    <script src="https://res.cloudinary.com/dwmerwpti/raw/upload/v1716895941/common_js_tmnuib.js"></script>
+
+    <!-- ===== home scripts ===== -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
